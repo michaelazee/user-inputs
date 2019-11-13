@@ -1,6 +1,4 @@
-$(function() {
-  //All JS goes within these brackets  
-  
+ $(document).ready(function() {
   $("#castrecording-submit").click(function(){
     
     //select the box with id of cast recordings
