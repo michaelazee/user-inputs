@@ -1,37 +1,17 @@
  $(document).ready(function() {
-  $("#castrecording-submit").click(function(){
-    
-    //select the box with id of cast recordings
-    //get the value from that box
-    var castrecordingString = $("#castrecording").val();
 
-    //convert string to number
-    var castrecording = parseInt(castrecordingString);
+    $("#castrecording-submit").click(function(){
+    var castRecordingString = $("#cast-recording").val();
+    var castRecording = parseInt(castRecordingString);
 
-    //check if cast recording is greater than 10
-    if ( castrecording >= 10 ) {
-      //if cast recording is greater than 10 show the next question
-      $("#wicked-form").show();
+    if ( castRecording > 10 ) {
       $("#castrecording-form").hide();
-    } else {
-      $("#answer").text("you can't sit with us");
-      $("#club-img").attr("src", "http://energy.gov/sites/prod/files/styles/borealis_default_hero_respondlarge/public/door_5481543.jpg?itok=joaNZ-Zx");
-    }
-    
-  });
-
-  $("#wicked-submit").click(function(){
-    var wickedString = $("#wicked").val();
-    var wickedAlbums = parseInt(wickedString);
-
-    if ( wicked = true ) {
-      $("#wicked-form").hide();
-      $("#answer").text("You're in!");
-      $("#club-img").attr("src", "https://media.giphy.com/media/zyxiqEQb6wTSg/giphy.gif");
+      $("#answer").text("Broadway, Here I Come!");
+      $("#broadway-img").attr("src", "https://media.giphy.com/media/QNUT5FSrWPtf7GqD5J/giphy.gif");
       
     } else {
-      $("#answer").text("scram. youre too young.");
-      $("#club-img").attr("src", "http://energy.gov/sites/prod/files/styles/borealis_default_hero_respondlarge/public/door_5481543.jpg?itok=joaNZ-Zx");
+      $("#answer").text("You can't sit with us :/");
+      $("#meangirls-img").attr("src", "https://media.giphy.com/media/gkKolwI9kwZni3Uy2i/giphy.gif");
     }
   });
 
