@@ -11,7 +11,7 @@
       
     } else {
       $("#answer").text("You can't sit with us :/");
-      $("#meangirls-img").attr("src", "https://media.giphy.com/media/gkKolwI9kwZni3Uy2i/giphy.gif");
+      $("#meangirls-img").attr("src", "https://cdn.vox-cdn.com/thumbor/MxOSpO68_0Rz9kqzmBVTOQA8ghc=/0x0:1600x1028/1200x0/filters:focal(0x0:1600x1028):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10626485/MeanGirlsBway2539r_preview.jpeg");
     }
   });
 
