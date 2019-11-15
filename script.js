@@ -5,7 +5,6 @@
     var castRecording = parseInt(castRecordingString);
 
     if ( castRecording > 10 ) {
-      $("#castrecording-form").hide();
       $("#answer").text("Broadway, Here I Come!");
       $("#broadway-img").attr("src", "https://media.giphy.com/media/QNUT5FSrWPtf7GqD5J/giphy.gif");
       
