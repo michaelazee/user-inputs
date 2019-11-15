@@ -6,7 +6,7 @@
 
     if ( castRecording > 10 ) {
       $("#answer").text("Broadway, Here I Come!");
-      $("#img").attr("src", "https://media.giphy.com/media/QNUT5FSrWPtf7GqD5J/giphy.gif");
+      $("#club-img").attr("src", "http://energy.gov/sites/prod/files/styles/borealis_default_hero_respondlarge/public/door_5481543.jpg?itok=joaNZ-Zx");
       
     } else {
       $("#answer").text("You can't sit with us :/");
